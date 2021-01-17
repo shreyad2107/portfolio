@@ -21,7 +21,7 @@ body{
 header {
     width: 100%;
     height: 100vh;
-    background: url(img/mountain.jpg);
+    background: url(img/gradient.jpg);
     transition: background-color .5s ease;
     z-index: 1000;
 }
