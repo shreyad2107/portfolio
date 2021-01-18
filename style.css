@@ -13,8 +13,8 @@ body{
     font-size:medium;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: blue;
-    border-bottom: 1px solid blue;
+    color:#a66d98;
+    border-bottom: 1px solid #a66d98;
     background-color: rgba(0,0,0,0);;
 }
 .navbar-nav>li{
