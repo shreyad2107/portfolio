@@ -39,3 +39,17 @@ header {
     padding: 0 3rem;
     color:#ccc;
 }
+.about-image{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width:100%;
+}
+.about-content{
+    line-height: 3vw;
+    list-style-type: none;
+}
+#about{
+    font-size: medium;
+    line-height: 2vw;
+}
