@@ -49,7 +49,7 @@ header {
     line-height: 5rem;
     list-style-type: none;
 }
-#about{
+body{
     font-size: medium;
     line-height: 3rem;
 }
@@ -58,3 +58,11 @@ header {
     color: white;
     padding: 2%;
 }
+
+.icon
+{
+    position: absolute;
+    top: 1%;
+    right: 3%;
+}
+
