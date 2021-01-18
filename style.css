@@ -46,10 +46,15 @@ header {
     width:100%;
 }
 .about-content{
-    line-height: 3vw;
+    line-height: 5rem;
     list-style-type: none;
 }
 #about{
     font-size: medium;
-    line-height: 2vw;
+    line-height: 3rem;
+}
+.btn{
+    background-color: #a66d98;
+    color: white;
+    padding: 2%;
 }
