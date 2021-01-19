@@ -64,4 +64,30 @@ body{
     top: 1%;
     right: 3%;
 }
-
+.box
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    height:40vh;
+    background-color: #fff;
+}
+.full-exp{
+    background-color:#f3e6f0;
+    padding-bottom: 3%;
+}
+.full-edu{ 
+    padding-bottom: 3%;
+}
+.full-skill{
+    padding: 3%;
+    background-color: #f5f2ec;
+}
+.full-proj{
+    padding-bottom:3%;
+}
+.title .align-items-center{
+    display:block;
+}
