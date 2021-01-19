@@ -73,6 +73,7 @@ body{
     justify-content: center;
     height:40vh;
     background-color: #fff;
+    margin-bottom: 3px;
 }
 .full-exp{
     background-color:#f3e6f0;
@@ -88,6 +89,9 @@ body{
 .full-proj{
     padding-bottom:3%;
 }
+.round{
+    margin-top:20%;
+}
 .round strong {
     position: absolute;
     top: 50%;
@@ -97,4 +101,14 @@ body{
     font-size: 40px;
     color: #a66d98;
     font-weight: 200;
+  }
+  .skill-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40%;
+    transform: translate(-50%);
+    color: #a66d98;
+    font-weight: 500;
+    font-size: large;
   }
