@@ -88,6 +88,13 @@ body{
 .full-proj{
     padding-bottom:3%;
 }
-.title .align-items-center{
-    display:block;
-}
+.round strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5%;
+    transform: translate(-50%);
+    font-size: 40px;
+    color: #a66d98;
+    font-weight: 200;
+  }
