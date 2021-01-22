@@ -1,10 +1,10 @@
-function CircleBar(e) {
-  $(e)
-    .circleProgress({ fill: { color: "#a66d98" } })
-    .on("circle-animation-progress", function(_event, _progress, stepValue) {
-      $(this)
-        .find("strong")
-        .text(String(parseInt(100 * stepValue)) + "%");
-    });
-}
-CircleBar(".round");
+$(this).delay(2000).queue(function() {
+
+  function CircleBar(e) {
+    $(e).circleProgress({ fill: { color: "#a66d98" } }).on("circle-animation-progress", function(_event, _progress, stepValue) {
+        $(this).find("strong").text(String(parseInt(100 * stepValue)) + "%");
+      });
+  }
+  CircleBar(".round");
+  $(this).dequeue();
+  });
