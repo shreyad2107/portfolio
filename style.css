@@ -78,12 +78,12 @@ header {
 /*--------------------------------------------------------------
 # About page
 --------------------------------------------------------------*/
-
-.about .image {
-    background: url("img/shreya1.jpg") center center no-repeat;
-    background-size: cover;
-    min-height: 500px;
-    padding:3rem;
+#about{
+    background-color: rgb(248, 247, 239);
+}
+.about img {
+    width:100%;
+    padding:2rem;
   }
 
 .btn{
@@ -126,7 +126,8 @@ header {
  /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-  .section-bg {
+
+.section-bg {
     background-color: white;
   }
   
@@ -177,10 +178,12 @@ header {
   }
 
 
+  
+
   /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-  .resume .resume-title {
+.resume .resume-title {
     font-size: 26px;
     font-weight: 700;
     margin-top: 20px;
@@ -237,10 +240,48 @@ header {
     border: 2px solid #82909c;
   }
 
+ /*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+/* .full-skill {
+    padding: 8% 0;
+    background: url("img/purplebg1.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+  .full-skill::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(14, 16, 17, 0.3);
+  }*/
+  .full-skill{
+      padding:3rem;
+      background-color: #d6c7e0 ;
+  }
+  .skill-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -40%;
+    transform: translate(-50%);
+    color: #a66d98;
+    font-weight: 500;
+    font-size: large;
+  }
 
+  @media (min-width: 1024px) {
+    .full-skill {
+      background-attachment: fixed;
+    }
+  }
   .box
 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     padding: 2px;
     display:flex; 
     align-items: center;

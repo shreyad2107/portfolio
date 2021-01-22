@@ -11,8 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -36,11 +34,9 @@
 
             <div class="collapse navbar-collapse navbar-right" id="mymenu">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#">Contact me</a></li>
                 </ul>
@@ -48,7 +44,7 @@
         </div>
     </nav>
 
-    <div class="container intro">
+    <div class="container intro" id="home">
         <h1 class="display-2">Hey! I am Shreya. <br> I  am  a  <strong>
             <span class="txt-type" data-wait="3000" data-words='["Developer","Designer","Creator"]'></span></strong> 
         </h1>
@@ -58,29 +54,28 @@
 
     <section id="about" class="about">
         <div class="container">
-  
           <div class="section-title">
-            <span>About Me</span>
+            <span style="color:#fff;">About Me</span>
             <h2>About Me</h2>
           </div>
   
           <div class="row">
-            <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-            <div class="col-lg-8 d-flex flex-column align-items-stretch">
-              <div class="content pl-lg-4 d-flex flex-column justify-content-center">
-                <div class="row">
-                <div class="col-lg-12">
-                    <p>Energetic and self-driven B.Tech student eager to apply current knowledge to gain exposure and achieve company goals. 
+            <div class="image col-md-4 d-flex justify-content-center justify-content-lg-start"><img src="img/shreya1.jpg"></div>
+            <div class="col-md-8 d-flex flex-column align-items-stretch">
+              <div class="content pl-md-4 d-flex flex-column justify-content-center">
+                <div class="row" style="padding: 4%;">
+                <div class="col-md-12">
+                    <p style="padding-bottom:10%;">Energetic and self-driven B.Tech student eager to apply current knowledge to gain exposure and achieve company goals. 
                         Successful in quickly building skills, self-teaching and acquiring new knowledge. Dedicated to working hard to make positive contributions.</p>
-                </div> <hr>
-                <div class="col-lg-6">
+                </div> 
+                <div class="col-md-6">
                     <ul>
                       <li><i class="glyphicon glyphicon-chevron-right"></i> <strong>Name:</strong> Shreya Dimri</li>
                       <li><i class="glyphicon glyphicon-chevron-right"></i> <strong>Phone:</strong> +91 8923657087</li>
                       <li><i class="glyphicon glyphicon-chevron-right"></i> <strong>City:</strong> City : Dehradun, India</li>
                     </ul>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-md-6">
                     <ul>
                       <li><i class="glyphicon glyphicon-chevron-right"></i> <strong>Age:</strong> 19</li>
                       <li><i class="glyphicon glyphicon-chevron-right"></i> <strong>Degree:</strong> Bachelors of Engineering</li>
@@ -91,16 +86,16 @@
             </div>
             </div>
         </div><!--====End of About Section====-->
+    </div>
+    </section>
 
-
-
+<!--====Start of Resume====-->
     <section id="resume" class="resume">
         <div class="container">
   
           <div class="section-title">
             <span>My Resume</span>
             <h2>My Resume</h2>
-            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
           </div>
   
           <div class="row">
@@ -169,11 +164,14 @@
       </section><!-- End My Resume Section -->
 
 
-
+  
+    <div class="full-skill" id="skills">
         <!--Skills section-->
             <div class="container">
-                <div class="row align-items-center slideanim" id="skills">
-                    <h1 style="color: #a66d98; padding: 3rem;"><strong>Skills</strong> </h1>
+                <div class="section-title">
+                    <span>Skills</span>
+                    <h2>Skills</h2>
+                  </div>
                     <div class="col-xs-12 col-sm-4 col-md-3">
                         <div class="box">
                             <div class="skill-title"><strong>HTML<strong></div>
@@ -232,7 +230,7 @@
 
                 </div>
             </div>
-
+   </div>
 
     <script>
         $(".nav li").on("click", function()
